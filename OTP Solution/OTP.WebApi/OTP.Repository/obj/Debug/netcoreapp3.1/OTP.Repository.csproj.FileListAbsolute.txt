@@ -1,0 +1,16 @@
+C:\Users\mihaii\source\repos\OTP.WebApi\OTP.Repository\bin\Debug\netcoreapp3.1\OTP.Repository.deps.json
+C:\Users\mihaii\source\repos\OTP.WebApi\OTP.Repository\bin\Debug\netcoreapp3.1\OTP.Repository.dll
+C:\Users\mihaii\source\repos\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.csprojAssemblyReference.cache
+C:\Users\mihaii\source\repos\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.AssemblyInfoInputs.cache
+C:\Users\mihaii\source\repos\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.AssemblyInfo.cs
+C:\Users\mihaii\source\repos\OTP.WebApi\OTP.Repository\bin\Debug\netcoreapp3.1\OTP.Repository.pdb
+C:\Users\mihaii\source\repos\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.dll
+C:\Users\mihaii\source\repos\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.pdb
+C:\Users\mihaii\Desktop\OTP\OTP.WebApi\OTP.Repository\bin\Debug\netcoreapp3.1\OTP.Repository.deps.json
+C:\Users\mihaii\Desktop\OTP\OTP.WebApi\OTP.Repository\bin\Debug\netcoreapp3.1\OTP.Repository.dll
+C:\Users\mihaii\Desktop\OTP\OTP.WebApi\OTP.Repository\bin\Debug\netcoreapp3.1\OTP.Repository.pdb
+C:\Users\mihaii\Desktop\OTP\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.csprojAssemblyReference.cache
+C:\Users\mihaii\Desktop\OTP\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.AssemblyInfoInputs.cache
+C:\Users\mihaii\Desktop\OTP\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.AssemblyInfo.cs
+C:\Users\mihaii\Desktop\OTP\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.dll
+C:\Users\mihaii\Desktop\OTP\OTP.WebApi\OTP.Repository\obj\Debug\netcoreapp3.1\OTP.Repository.pdb

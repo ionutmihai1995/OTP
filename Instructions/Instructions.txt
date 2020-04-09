@@ -1,0 +1,24 @@
+The solution contains two projects : Web and WebApi
+
+-----------------------------------------------------
+WebAPi
+
+OTP.WebApi is developed using .NET Core 3.1, EF Core 3.1 technologies
+OTP.WebApi.Tests contains 9 unit tests using Moq package
+
+Also, we have an in-memory repository for storing different things. (OTPContext)
+
+As seed data we have two simple users with following userId : 122212MA, 122123MI
+
+------------------------------------------------------
+Web Project
+
+Web Project is developed using Angular 9 and Angular Material for UI.
+
+For installing the modules, use "npm install" command within the project root.
+
+Also, please check if "baseUrl" value from environment.ts corresponds with your running API.
+
+
+
+
