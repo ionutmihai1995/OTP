@@ -1,0 +1,8 @@
+<div class="countdown-div" *ngIf = "timerSeconds">
+    <div id="countdown">
+      <div id="countdown-number" [style.color]="timerSeconds <= 5 ? 'red' : 'black'">{{timerSeconds | number: '1.1-1'}} s</div>
+        <svg>
+          <circle [style.stroke]="timerSeconds <= 5 ? 'red' : 'black'" r="30" cx="40" cy="40"></circle>
+        </svg>
+    </div>
+  </div>

@@ -1,0 +1,62 @@
+<mat-card>
+  <p>
+    <mat-progress-bar *ngIf="loading" mode="indeterminate"></mat-progress-bar>
+  </p>
+  <mat-card-title><img src="../../../assets/logo.png" /></mat-card-title>
+  <mat-card-content *ngIf="!validityResult">
+    <form *ngIf="!isLoggedIn" [formGroup]="checkUserValidityForm" (ngSubmit)="checkValidity()">
+      <p>
+        <mat-form-field>
+          <input matInput type="text" matInput placeholder="User Id" formControlName="userId">
+          <mat-error *ngIf="showErrorMessage(checkUserValidityForm, 'userId', 'required')">
+            User Id is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+      </p>
+
+      <p *ngIf="requestError" class="error">
+        {{requestError}}
+      </p>
+
+      <div class="button">
+        <button [disabled]="!checkUserValidityForm.valid || loading" type="submit" mat-raised-button color="primary">Next</button>
+      </div>
+
+    </form>
+  </mat-card-content>
+  <mat-card-content *ngIf="validityResult">
+    <form *ngIf="!isLoggedIn" [formGroup]="OTPForm" (ngSubmit)="submit()">
+      <mat-list>
+        <mat-list-item>User Id : {{checkUserValidityForm.value.userId}}</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item><b>Generated One Time Password : {{validityResult.generatedOTP}}</b></mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>Expired Date : {{validityResult.expiredDate | date:'dd/MM/yyyy hh:mm:ss'}}</mat-list-item>
+      </mat-list>
+
+      <p>
+        <app-countdown [timerSeconds]="timerSeconds"></app-countdown>
+      </p>
+      <p>
+        <mat-form-field>
+          <input matInput type="text" matInput placeholder="Generated OTP" formControlName="otp">
+          <mat-error *ngIf="showErrorMessage(OTPForm, 'otp', 'required')">
+            One Time Password is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+      </p>
+
+      <p *ngIf="requestError" class="error">
+        {{requestError}}
+      </p>
+
+      <div class="button">
+        <button [disabled]="!OTPForm.valid || loading" type="submit" mat-raised-button color="primary">Login</button>
+      </div>
+
+    </form>
+    <p *ngIf="successfullyLoginMsg" class="success">
+      {{successfullyLoginMsg}}
+    </p>
+  </mat-card-content>
+</mat-card>

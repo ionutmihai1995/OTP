@@ -1,0 +1,43 @@
+:host {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+  }
+
+  .mat-form-field {
+    width: 100%;
+    min-width: 300px;
+  }
+
+  .mat-card-title{
+    text-align: center;
+  }
+
+  .mat-card-title img{
+      width: 200px;
+  }
+
+  mat-card-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .error {
+    width: 300px;
+    color: red;
+    text-align: center;
+  }
+
+  .success{
+    color: green;
+    text-align: center;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mat-list-item{
+    font-size: 14px !important;
+  }

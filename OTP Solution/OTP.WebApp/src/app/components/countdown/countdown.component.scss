@@ -1,0 +1,31 @@
+.countdown-div{
+    margin: 0 auto;
+  }
+
+  #countdown {
+    position: relative;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+  }
+  
+  #countdown-number {
+    display: inline-block;
+    line-height: 80px;
+  }
+  
+  svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    transform: rotateY(-180deg) rotateZ(-90deg);
+  }
+  
+  svg circle {
+    stroke-linecap: round;
+    stroke-width: 2px;
+    fill: none;
+  }
